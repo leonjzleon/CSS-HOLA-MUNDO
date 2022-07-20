@@ -1,0 +1,103 @@
+body {
+    color: red;
+}
+
+#titulo {
+    color: aqua;
+}
+
+.texto {
+    color: aquamarine;
+}
+
+div p {
+    color: blue;
+}
+
+div h2,
+div h3 {
+    color: yellow;
+}
+
+* {
+    font-size: 24px;
+    /* color: black; */
+}
+
+
+/*aprendiendo css*/
+
+.color {
+    /* border: 5px black solid; */
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 2rem;
+}
+
+#fondo {
+    background-color: rgba(255, 0, 0);
+    /* opacity: 0.3; */
+    height: 200px;
+    background-image: url(/img/coffee.png);
+    background-size: 100px 100px;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+}
+
+.margen {
+    background-color: red;
+    margin: 15px;
+    padding: 30px 15px;
+    border: solid 6px #000;
+    height: 100PX;
+    width: 50px;
+    overflow: scroll;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 5px 5px;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: red;
+}
+
+ul {
+    background-color: cyan;
+    /* list-style-type: none;
+    padding-left: 0; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: solid 1px white;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
